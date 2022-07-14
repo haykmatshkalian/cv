@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Music Player</title>
+</head>
+
+
+<body>
+
+  <img src="./assets/images/logo.png" class="logo" alt="">
+  <!-- <img src="./assets/images/logo.png" class="logo1" alt=""> -->
+
+  <!-- <div class="txt">
+    <p style=" font-family: 'The Nautigal',  cursive; margin-bottom: 0; font-size: 80px; color: #d12c22;">
+      Frank Sinatra</p>
+  </div> -->
+  <!-- <h1 style=" font-family: 'The Nautigal',  cursive; margin-bottom: 0; color: #d12c22;">Music Player</h1> -->
+
+  <div class="music-container" id="music-container">
+    <div class="music-info">
+      <h4 id="title"></h4>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="time">
+          <div class="first_time">
+            <p id="time1"> 00:00 </p>
+          </div>
+          <div class="last_time">
+            <p id="time2"></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="music-volume">
+      <div class="img_volume" id="volStatus">
+        <img src="./assets/images/volume.png" id="volStatusImg">
+      </div>
+      <div class="volume_control_container" id="volume_control_container">
+        <div class="volume_control" id="volume_control"></div>
+      </div>
+    </div>
+
+
+    <audio src="./assets/audio/Fly Me To The Moon.mp3" id="audio"></audio>
+
+    <div class="img-container">
+      <img src="./assets/images/Fly Me To The Moon.jpg" alt="music-cover" id="cover" />
+    </div>
+    <div class="navigation">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn action-btn-big">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+  </div>
+  
+  <svg id="filters">
+      <defs>
+          <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+          </filter>
+      </defs>
+  </svg>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
