@@ -1,0 +1,407 @@
+@media screen and (min-width: 1440px) {
+
+
+    .box__2 {
+        margin-right: 800px;
+
+        width: 328px;
+        height: 292px;
+        margin-left: -184px;
+        margin-top: 531px;
+        padding: 40px;
+
+    }
+
+    .container__inner {
+        width: 100%;
+
+
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1374px) {
+
+    .div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    /* page 1 (s) */
+
+    .box__2 {
+        margin-right: 800px;
+
+        width: 328px;
+        height: 292px;
+        margin-left: -430px;
+        margin-top: 531px;
+        padding: 40px;
+
+    }
+
+    .container__inner {
+        width: 100%;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+    /* page 3 (s) */
+    /* ok */
+    .line__width {
+        width: 125px;
+        height: 9px;
+        background-color: #E74040;
+        margin-bottom: 35px;
+    }
+
+    /* ok */
+
+    .h2_1 {
+        font-weight: 933;
+        margin-bottom: 47px;
+        line-height: 67px;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 53px;
+    }
+
+    /* ok */
+    .p_1 {
+        font-weight: 533;
+        margin-bottom: 47px;
+        line-height: 27px;
+        color: #FFFFFF;
+        width: 468px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .div_1 {
+        width: 160px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .a_1 {
+        color: #8D5CF6;
+        font-weight: 933;
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    /* ok */
+
+    .img__child {
+        width: 667px;
+        height: 526px;
+
+        margin-left: 98px;
+
+        /* background: url(../images/P__3/thumb-concept-6.png); */
+        background-repeat: no-repeat;
+        background-size: 667px 526px;
+
+
+
+    }
+
+    /* p_3 (end) */
+
+
+
+
+
+    /* p_4 (s) */
+
+    .h6_1 {
+        color: #8D5CF6;
+        font-weight: 933;
+        font-size: 19px;
+        margin-bottom: 13px;
+        line-height: 32px;
+    }
+
+    .h2_2 {
+        font-weight: 933;
+        font-size: 53px;
+        margin-bottom: 13px;
+        line-height: 67px;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF
+    }
+
+    .div_2 {
+        width: 625px;
+        height: 53px;
+        margin-bottom: 149px;
+    }
+
+    .p_2 {
+        font-weight: 533;
+        font-size: 19px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+
+    .container__inner {
+        width: 100%;
+
+
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .block {
+        width: 317px;
+        height: 803px;
+
+        background-color: #fff;
+    }
+
+
+
+
+    .bolcks__img1 {
+        width: 317px;
+        height: 400px;
+
+        /* background: url(../images/P__4/product-cover-133\ sec-.png); */
+        background-size: cover;
+
+
+        padding: 27px;
+    }
+
+    .sale {
+        width: 68px;
+        height: 32px;
+        padding-top: 4px;
+        text-align: center;
+
+        border-radius: 5px;
+        background-color: #E74040;
+    }
+
+    .join__us__2 {
+        width: 100%;
+    }
+
+    .star {
+        margin-top: 35px;
+        margin-right: 41px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 7px;
+        gap: 7px;
+
+        width: 67px;
+        height: 35px;
+
+        background: #26335D;
+        border-radius: 20px;
+
+    }
+
+    .btn__background {
+        width: 200px;
+        height: 59px;
+
+        margin-top: 20px;
+
+        border: 1px solid #8D5CF6;
+        border-radius: 37px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 13px 27px;
+        gap: 13px;
+
+    }
+
+    .bolcks__img2 {
+        width: 317px;
+        height: 400px;
+
+        /* background: url(../images/P__4/product-cover-131.png); */
+        background-size: cover;
+
+
+        padding: 27px;
+    }
+
+    .bolcks__img3 {
+        width: 317px;
+        height: 400px;
+
+        /* background: url(../images/P__4/product-cover-130\ sec-.png); */
+        background-size: cover;
+
+
+        padding: 27px;
+    }
+
+    .bolcks__img4 {
+        width: 317px;
+        height: 400px;
+
+        /* background: url(../images/P__4/product-cover-132\ sec-.png); */
+        background-size: cover;
+
+
+        padding: 27px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ok */
+
+    .div_3 {
+        margin-left: 33px;
+    }
+
+    /* ok */
+    .a_2 {
+        color: #8D5CF6;
+        font-weight: 933;
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 32px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* ok */
+    .small_1 {
+        font-weight: 533;
+        font-size: 16px;
+        margin-left: 4px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    /* ok */
+    .h5_1 {
+        font-weight: 933;
+        font-size: 21px;
+        margin-bottom: 13px;
+        line-height: 32px;
+    }
+
+    /* ok */
+    .p_3 {
+        font-weight: 533;
+        font-size: 17px;
+        line-height: 24px;
+        color: #737373;
+    }
+
+    /* ok */
+    .img_1 {
+        width: 21px;
+        height: 21px;
+    }
+
+    /* ok */
+    .h6_2 {
+        font-weight: 933;
+        font-size: 19px;
+        margin-top: -7px;
+        line-height: 24px;
+        color: #737373;
+    }
+
+
+    .h5_2 {
+        width: 92px;
+        height: 43px;
+        font-weight: 933;
+        font-size: 21px;
+        line-height: 24px;
+        color: #BDBDBD;
+    }
+
+    .h5_3 {
+        width: 60px;
+        height: 32px;
+        font-weight: 933;
+        font-size: 21px;
+        line-height: 24px;
+        text-align: center;
+        color: #FF7B52;
+    }
+
+    .a_3 {
+        font-weight: 933;
+        font-size: 19px;
+        line-height: 24px;
+        color: #8D5CF6;
+    }
+
+
+
+
+
+
+
+
+
+
+}
