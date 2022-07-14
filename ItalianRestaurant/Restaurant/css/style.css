@@ -1,0 +1,801 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Ubuntu:wght@400;700&display=swap');
+/* font-family: 'Charis SIL', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+/* font-family: 'Freehand', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+
+*,
+*:after,
+*:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    width: 100%;
+
+    overflow:inherit;
+}
+
+/* Header higher part */
+.header {
+    width: 100%;
+    height: 1056px;
+
+    background: url("../Images/First_Page/Background.png");
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.header__inner {
+    width: 100%;
+    height: 150px;
+}
+
+.nav__link {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #fff;
+
+    margin: 65px 55px 10px 3px;
+
+    transition: .2s all;
+}
+
+.nav__link:hover {
+    color: #dbca42;
+    text-decoration: underline;
+}
+
+.search input[type="text"] {
+
+
+    width: 183px;
+    height: 51px;
+
+    border: none;
+    /* border-color: #fff; */
+    border-radius: 50px;
+    margin: 42px 45px 0 55px;
+
+    font-family: 'Charis SIL', serif;
+    background-color: white;
+    background-image: url('../Images/First_Page/search-icon-clip-art-clkerm-vector-clip-art-online-22.png');
+    background-size: 25px 25px;
+    background-position: 115px 12px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    /* transition: width 0.4s ease-in-out; */
+
+}
+
+.search input[type="text"]:focus {
+    background-color: #fff;
+    background-image: none;
+    font-family: 'Charis SIL', serif;
+    /* border-color: #fff; */
+    border: none;
+
+}
+
+/* Header Lower Part */
+.header__lower {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__side {
+    width: 100%;
+}
+
+
+
+.logo {
+    width: 136px;
+    height: 109px;
+
+    margin-top: 45px;
+    /* margin-left: 100px; */
+
+    background: url("../Images/First_Page/Logo.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#italian__food {
+    color: #fff;
+
+    margin-bottom: 100px;
+
+    font-family: 'Freehand', cursive;
+    font-size: 120px;
+}
+
+/* button header */
+.background__btn__header {
+    width: 100%;
+    margin: 25px;
+
+}
+
+.btn__header {
+    width: 215px;
+    height: 50px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 10px;
+    margin-left: -25px;
+
+
+    border: 3px solid white;
+    border-radius: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #27292c;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .3s linear;
+    background-color: #fff;
+
+}
+
+.btn__header:hover {
+    text-decoration: none;
+    padding: 10px 10px;
+
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.container__for__left {
+    margin: 10px 15px 20px 100px;
+}
+
+
+/* Right Side */
+
+.right__side {
+    width: 100%;
+}
+
+.spagetti {
+    width: 100%;
+    height: 700px;
+    margin: 160px 0 0 0px;
+
+    background: url("../Images/First_Page/Spageti.png");
+    background-size: 632px 620px;
+    background-repeat: no-repeat;
+    /* background-position: 60px 150px; */
+}
+
+.sous {
+    width: 293px;
+    height: 290px;
+
+    margin: -215px 0 0 -100px;
+
+    background: url("../Images/First_Page/Qaq.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+}
+
+.terev {
+    width: 609px;
+    height: 478px;
+
+    margin: -375px 0 0 105px;
+
+    background: url("../Images/First_Page/Terev.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+}
+
+
+/* Second Page */
+
+.page__second {
+    width: 100%;
+
+    text-align: center;
+}
+
+.salat {
+    width: 100%;
+
+    margin-bottom: 350px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.salat__1 {
+    width: 376px;
+    height: 368px;
+
+
+
+    background: url("../Images/Second_Page/kaput_aman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.salat__2 {
+    width: 338px;
+    height: 346px;
+
+    background: url("../Images/Second_Page/rozvi_aman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.salat__3 {
+    width: 355px;
+    height: 361px;
+
+    background: url("../Images/Second_Page/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.salat__id {
+    text-align: start;
+    font-size: 30px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 95px;
+    margin-top: 380px;
+}
+
+/* button 2 page */
+.background__btn1 {
+    width: 100%;
+    /* margin: 25px; */
+
+}
+
+.btn1 {
+    width: 335px;
+    height: 75px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 23px 10px;
+    margin-left: -25px;
+    margin-bottom: 70px;
+
+
+
+    /* border: 3px solid white ; */
+    border-radius: 50px;
+    background-color: #333;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .3s linear;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    text-decoration: none;
+
+    padding: 20px 10px;
+
+}
+
+/* Page 3 */
+.page__third {
+    width: 100%;
+
+    background-color: #27292c;
+}
+
+.txt {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* button Third page */
+.background__btn2 {
+    width: 100%;
+    /* margin: 25px; */
+
+    text-align: center;
+
+
+}
+
+.btn2 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 16px 10px;
+    margin-left: -25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+
+    /* border: 3px solid white ; */
+    border-radius: 50px;
+    background-color: #fff;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #27292c;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .3s linear;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: #fff;
+    border: none;
+
+    text-decoration: none;
+
+}
+
+
+
+/* Page 4 */
+.page__fourth {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first__part {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__half {
+    width: 713px;
+    height: 721px;
+
+    margin-left: 20px;
+    margin-top: 55px;
+
+    background: url("../Images/Fourth_Page/pervi__aman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.second__half {
+    width: 52%;
+
+    margin-top: 135px;
+}
+
+.background__btn3 {
+    width: 100%;
+    /* margin: 25px; */
+
+}
+
+
+.btn3 {
+    width: 340px;
+    height: 70px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 10px;
+    margin-top: 55px;
+    margin-bottom: 70px;
+
+
+
+    /* border: 3px solid white ; */
+    border-radius: 50px;
+    background-color: #333;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .3s linear;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    padding: 17px 10px;
+
+    text-decoration: none;
+
+
+}
+
+
+/* Second Half */
+.second__part {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first__half1 {
+    width: 52%;
+    margin-top: 135px;
+    margin-left: 60px;
+
+}
+
+.second__half__1 {
+    width: 713px;
+    height: 721px;
+
+    margin-top: 55px;
+    margin-left: -200px;
+
+    background: url("../Images/Fourth_Page/vtaroy__aman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Fifth Page */
+.page__fifth {
+    width: 100%;
+    height: 1120px;
+
+    padding-top: 110px;
+    /* text-align: center; */
+
+    background: url("../Images/Fifth_Page/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.triangle {
+    width: 160px;
+    height: 10px;
+    /* margin-top: 70px; */
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.terevner {
+    width: 100%;
+    height: 840px;
+
+    margin: -550px 0 0 00px;
+
+
+    background: url("../Images/Fifth_Page//terevner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pizza {
+    width: 824px;
+    height: 829px;
+
+    margin: -240px 0 0 650px;
+
+    background: url("../Images/Fifth_Page/pizza.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ktor {
+    width: 448px;
+    height: 391px;
+
+    margin: -375px 0 0 500px;
+
+    background: url("../Images/Fifth_Page/ktor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Last Page */
+.last__page {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 180px; */
+
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text__1,
+.text__2,
+.text__3 {
+    width: 100%;
+    text-align: center;
+}
+
+.last__part {
+    width: 100%;
+
+    margin-top: 700px;
+
+    text-align: center;
+}
+
+.lasto__momento {
+    width: 100%;
+    height: 800px;
+
+
+
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+
+    background-color: #27292c;
+    background-size: 100% 900px;
+    padding: 200px;
+
+
+    /* position: absolute;
+    top: 6300px;
+    left: 0;
+    right: 0; */
+}
+
+.leave {
+    width: 350px;
+    height: 390px;
+
+    position: absolute;
+    top: 6250px;
+    /* left: 0; */
+    right: 20px;
+}
+
+
+.leav {
+    width: 350px;
+    height: 390px;
+
+    position: absolute;
+    top: 7020px;
+    left: 0;
+    /* right: 0; */
+}
+
+
+/* 
+.leave{
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+
+    background-image:url("/Images/Lasto_Momento/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+.form {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.image__terev__last {
+    width: 75%;
+    height: 1056px;
+
+    margin: -590px 0 0 -250px;
+
+    background: url("../Images/Lasto_Momento/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png");
+    background-size: 1440px 1056px;
+    background-repeat: no-repeat;
+}
+
+.last__background {
+    width: 100%;
+
+    margin-top: 150px;
+
+    background-color: #fff;
+}
+
+
+.footer {
+    width: 100%;
+
+    padding: 250px 50px;
+
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+button:focus {
+    background-color: rgb(31, 65, 31);
+}
+
+.footer p {
+    margin: 25px 10px;
+}
+
+.first_txt {
+    width: 100%;
+}
+
+.second_txt,
+.third_txt,
+.fourth_txt {
+    width: 35%;
+}
+
+.social__networks {
+    width: max-content;
+    padding: 0 5px;
+
+    margin-top: 50px;
+    border-radius: 25px;
+
+    background-color: #27292c;
+
+    display: flex;
+    justify-content: start;
+}
+
+.inst,
+.face,
+.twit,
+.whats {
+    width: 35px;
+    height: 35px;
+    margin: 7px 5px;
+
+    background-color: #27292c;
+
+    border-radius: 25px;
+}
+
+.inst {
+
+    background: url("../Images/Lasto_Momento/Instagram.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.inst:hover {
+    background: url("../Images/Lasto_Momento/Inst_hover.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.face {
+
+    background: url("../Images/Lasto_Momento/Facebook.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.face:hover {
+
+    background: url("../Images/Lasto_Momento/face_hover.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+
+
+.twit {
+
+    background: url("../Images/Lasto_Momento/Twitter.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.twit:hover {
+
+    background: url("../Images/Lasto_Momento/Twiter_hover.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.whats {
+
+    background: url("../Images/Lasto_Momento/WhatsApp.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.whats:hover {
+
+    background: url("../Images/Lasto_Momento/Whats_hover.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+
+.form button:hover {
+    background-color: rgb(29, 84, 29) !important;
+}
+
+.form button:active {
+    background-color: rgb(12, 61, 12) !important;
+}
