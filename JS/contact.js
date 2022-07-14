@@ -1,0 +1,1 @@
+alert('Since, at the moment, I do not have the opportunity to work on paid hosting, your messages will not be printed in my database.' + '  ' + 'Thanks')

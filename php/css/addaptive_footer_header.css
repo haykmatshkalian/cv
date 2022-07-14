@@ -1,0 +1,116 @@
+
+@media only screen and (max-width:769px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .mail {
+        margin-right: 15px;
+    }
+
+    header{
+        margin-top:50px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+
+    header {
+        padding: 0 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+    .nav{
+        margin-left:-50px;
+    }
+    
+    .navbar-brand {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+
+    .left {
+        text-align: center;
+    }
+
+    small {
+        margin-left: 45px;
+
+    }
+
+    #logo {
+        margin-left: 120px;
+    }
+
+
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+
+        text-align: center;
+    }
+
+    .social__networks {
+        width: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:376px){
+    header{
+        padding:0;
+    }
+
+    #logo{
+        margin-left:48px;
+    }
+
+    .navbar-brand{
+        margin-left:0;
+    }
+
+    small{
+        margin-left:75px;
+    }
+}
+
+@media only screen and (max-width:321px){
+    header{
+        padding:0;
+    }
+
+    #logo{
+        margin-left: 27px;
+    }
+
+    .navbar-brand{
+        margin-right:0;
+    }
+    
+    .nav{
+        margin-left: 1px;
+    }
+    
+    .navbar-brand{
+        margin-left:0;
+    }
+
+    small{
+        margin-left: 47px;
+    }
+    
+    footer{
+        margin-bottom:20px;
+    }
+}
