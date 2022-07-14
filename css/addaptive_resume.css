@@ -17,12 +17,20 @@
 }
 
 @media only screen and (max-width:768px) {
-
+    .k small {
+        width: 190px;
+        position: absolute;
+        left: 40px;
+    }
 }
 
 @media only screen and (max-width:426px) {
     .experience{
         flex-direction:column;
     }
-
+    .k small {
+        width: 190px;
+        position: absolute;
+        left: -28px;
+    }
 }

@@ -27,6 +27,37 @@ header {
 }
 
 
+.nav-link{
+    display: inline-block;
+    position: relative;
+    color: black  !important;
+
+    text-decoration: none;
+  }
+  
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+    text-decoration: none;
+
+    color: black;
+  }
+
+
 .navbar-brand {
     display: inline-block;
     position: relative;
@@ -80,16 +111,6 @@ header {
 
 #right p {
     margin-top: 6px;
-}
-
-.nav-link{
-    color:black ;
-
-    transition: .2s all;
-}
-
-.nav-link:hover{
-    color: rgb(161, 161, 32);
 }
 
 .active{
@@ -148,14 +169,52 @@ main{
 }
 
 
-/* 
-form{
-    padding: 2.3rem 2.2rem;
-    z-index: 10;
-    width: 820px !important;
-    overflow: hidden;
+#h1 {
+    
+    display: inline-block;
     position: relative;
-} */
+    color: black  !important;
+
+    text-decoration: none;
+  }
+  
+  #h1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #h1:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+    text-decoration: none;
+
+    color: black;
+  }
+
+
+.k{
+    width: 25% !important;
+}
+
+  .k h1{
+    font-size: 26px !important;
+    width: 150px;
+}
+
+.k small {
+    width: 190px;
+    position: absolute;
+    left: 280px;
+}
 
 /* footer */
 
