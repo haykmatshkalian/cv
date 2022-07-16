@@ -335,12 +335,10 @@
 
 @media only screen and (max-width:417px) {
     #logo {
-        margin-left: 39px;
+        margin-left: 24px;
     }
 
-    .nav {
-        margin-left: 19px;
-    }
+
 
 
     small {
@@ -352,8 +350,29 @@
     }
 }
 
-@media only screen and (max-width:411px){
-   
+@media only screen and (max-width:411px) {
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    small {
+        margin-left: 53px;
+    }
+
+    .nav {
+        margin-left: 5px;
+    }
+
+
+    .date {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width:401px) {
+
     #logo {
         margin-left: 16px;
     }
@@ -361,32 +380,28 @@
     .nav {
         margin-left: 0px;
     }
+
     small {
         margin-left: 53px;
     }
 
-    .nav {
-        margin-left: 14px;
-    }
+
 }
 
+@media only screen and (max-width:396px) {
 
-@media only screen and (max-width:411px){
-   
     #logo {
-        margin-left: 16px;
+        margin-left: 0px;
     }
 
     .nav {
         margin-left: -10px;
     }
+
     small {
         margin-left: 53px;
     }
 
-    .nav {
-        margin-left: 14px;
-    }
 }
 
 @media only screen and (max-width:391px) {
@@ -408,7 +423,7 @@
     }
 
     .nav {
-        margin-left: -6px;
+        margin-left: -25px;
     }
 
     .btns {
@@ -435,7 +450,7 @@
     }
 
     .nav {
-        margin-left: -22px;
+        margin-left: -30px;
     }
 }
 
@@ -454,24 +469,53 @@
     }
 
     .nav {
-        margin-left: -50px;
+        margin-left: -52px;
+    }
+}
+
+@media only screen and (max-width:345px) {
+
+    #logo {
+        margin-left: -14px;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    small {
+        margin-left: 0px;
+    }
+
+    .nav {
+        margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width:337px) {
+
+    #logo {
+        margin-left: -14px;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    small {
+        margin-left: 0px;
+    }
+
+    .nav {
+        margin-left: -65px;
     }
 }
 
 
-
-
-@media only screen and (max-width:321px) {
-    header {
-        padding: 0;
-    }
+@media only screen and (max-width: 325px) {
 
     #logo {
         margin-left: 27px;
-    }
-
-    .navbar-brand {
-        margin-right: 0;
     }
 
     .nav {
@@ -479,6 +523,7 @@
     }
 
     .navbar-brand {
+        margin-right: 0;
         margin-left: 0;
     }
 
@@ -490,7 +535,4 @@
         margin-bottom: 20px;
     }
 
-    .date {
-        width: 40%;
-    }
 }
