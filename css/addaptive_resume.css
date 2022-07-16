@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1206px) {
     main {
         padding: 0;
     }
@@ -6,6 +6,11 @@
     #h1 {
         margin-top: 100px;
         text-align: center;
+        margin-left: 45px;
+    }
+
+    #about {
+        flex-direction: column;
     }
 }
 
@@ -14,23 +19,136 @@
         flex-direction: column;
         margin-bottom: 50px;
     }
+
+    #txt small {
+        left: 135px;
+    }
 }
 
+
+@media only screen and (max-width:928px) {
+    #h1 {
+        margin-left: 115px;
+    }
+
+    #txt small {
+        left: 122px;
+    }
+}
+
+@media only screen and (max-width:925px) {}
+
 @media only screen and (max-width:768px) {
+    #h1 {
+
+        margin-left: 121px;
+    }
+
+
+    .experience {
+        flex-direction: column;
+    }
+
     .k small {
         width: 190px;
         position: absolute;
         left: 40px;
     }
+
+    #txt small {
+        left: 45px;
+    }
+
 }
 
-@media only screen and (max-width:426px) {
-    .experience{
-        flex-direction:column;
+@media only screen and (max-width:684px) {
+    #h1 {
+
+        margin-left: 83px;
     }
-    .k small {
-        width: 190px;
-        position: absolute;
+
+    #txt small {
+        left: 85px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    #h1 {
+
+        margin-left: 45px;
+    }
+
+    #txt small {
+        left: 55px;
+    }
+}
+
+@media only screen and (max-width:525px) {
+    #h1 {
+
+        margin-left: 13px;
+    }
+
+    #txt small {
+        left: 17px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #txt small {
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width:481px) {}
+
+@media only screen and (max-width:477px) {
+    #txt small {
+        left: -61px;
+    }
+}
+
+@media only screen and (max-width: 469px) {}
+
+@media only screen and (max-width: 442px) {}
+
+
+@media only screen and (max-width:440px) {}
+
+
+@media only screen and (max-width: 438px) {
+    #txt small {
+        left: -46px;
+    }
+}
+
+@media only screen and (max-width:426px) {}
+
+@media only screen and (max-width:419px) {}
+
+
+@media only screen and (max-width:417px) {
+    #txt small {
+        left: -31px;
+    }
+}
+
+@media only screen and (max-width:391px) {
+    #txt small {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width:376px) {}
+
+@media only screen and (max-width:364px) {
+    #txt small {
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width:321px) {
+    #txt small {
         left: -28px;
     }
 }

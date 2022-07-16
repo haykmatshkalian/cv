@@ -12,6 +12,7 @@
 body {
     background-color: #f3f3f3;
     font-family: 'Work Sans', sans-serif;
+    /* overflow-x: visible; */
 }
 
 /* header */

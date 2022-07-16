@@ -1,57 +1,95 @@
+@media only screen and (max-width: 1206px) {}
+
 @media only screen and (max-width: 1025px) {
-  
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        text-align: center;
+        /* margin-left: 50px; */
+        margin: 0 auto;
+    }
 }
 
-@media only screen and (max-width:951px) {
+@media only screen and (max-width:951px) {}
 
-}
+
+@media only screen and (max-width:928px) {}
+
+@media only screen and (max-width:925px) {}
 
 @media only screen and (max-width:768px) {
-.container{
-    align-items:start;
-    padding-left: 2rem;
-padding-right: 2rem;
+    .container {
+        align-items: start;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
-}
+    }
+
     .text {
-    margin: 4rem 0 1.5rem 0;
+        margin: 4rem 0 1.5rem 90px;
+    }
+
 }
 
+@media only screen and (max-width:684px) {}
 
+@media only screen and (max-width:610px) {}
 
+@media only screen and (max-width:525px) {}
 
-    
+@media only screen and (max-width:500px) {}
+
+@media only screen and (max-width:481px) {}
+
+@media only screen and (max-width:477px) {
+    .text {
+        margin: 4rem 0 1.5rem 56px;
+    }
+
 }
+
+@media only screen and (max-width: 469px) {}
+
+@media only screen and (max-width: 442px) {}
+
+@media only screen and (max-width:440px) {}
+
+@media only screen and (max-width: 438px) {}
 
 @media only screen and (max-width:426px) {
-    .container{
-         flex-direction: column;
-    }
 
-    .text {
-        text-align:center;
-        margin-left:50px;
-    }
+
     .text p {
-        margin-bottom:15px;
+        margin-bottom: 15px;
     }
 
-    
-}
-
-@media only screen and (max-width:376px){
 
 }
 
-@media only screen and (max-width:321px){
-    .container{
-         flex-direction: column;
+@media only screen and (max-width:419px) {}
+
+@media only screen and (max-width:417px) {}
+
+@media only screen and (max-width:391px) {
+    .text {
+        margin: 4rem 0 1.5rem 22px;
     }
 
+}
+
+@media only screen and (max-width:376px) {}
+
+@media only screen and (max-width:364px) {}
+
+@media only screen and (max-width:321px) {
+ 
     .text {
-        text-align:center;
+        text-align: center;
     }
+
     .text p {
-        margin-bottom:15px;
+        margin-bottom: 15px;
     }
-} 
+}

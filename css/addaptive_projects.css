@@ -1,95 +1,104 @@
+@media only screen and (max-width: 1206px) {}
+
 @media only screen and (max-width: 1025px) {
-    .project{
-        flex-direction:column;
+    .project {
+        flex-direction: column;
     }
+
     #txt {
-        margin-bottom:25px;
+        margin-bottom: 25px;
     }
 
-    #h1{
-        margin:0;
+    #h1 {
+        margin: 0;
     }
 
-  
-}
 
-@media only screen and (max-width:951px) {
-    #img img {
-        margin-left: -37px;
+    main {
+        padding: 70px;
     }
-}
-
-@media only screen and (max-width:930px) {
 
 }
+
+@media only screen and (max-width:951px) {}
+
+
+@media only screen and (max-width:928px) {}
+
+@media only screen and (max-width:925px) {}
 
 @media only screen and (max-width:768px) {
 
-    main{
-        padding:50px;
+    main {
+        padding: 50px;
     }
 
-    #h1{
-        text-align:center;
-    }
- 
-    #txt h1{
-        text-align:center;
+
+
+
+    #img img {
+        margin-left: 0;
     }
 
-    #img img{
-        margin-left:0;
-    }
-   
+
+
 }
+
+@media only screen and (max-width:684px) {}
+
+@media only screen and (max-width:610px) {}
+
+@media only screen and (max-width:525px) {}
+
+@media only screen and (max-width:500px) {}
+
+@media only screen and (max-width:481px) {}
+
+@media only screen and (max-width:477px) {}
+
+@media only screen and (max-width: 469px) {}
+
+@media only screen and (max-width: 442px) {}
+
+@media only screen and (max-width:440px) {}
+
+@media only screen and (max-width: 438px) {}
 
 @media only screen and (max-width:426px) {
-       #h1{
-           margin-top:100px;
-       } 
 
-        #img img{
-            width:369.2px;
-            height:189.6px;
+    #h1 {
+        margin-top: 100px;
+    }
 
-            margin-left:-18px
-        }
+
 
 }
 
-@media only screen and (max-width:376px){
-/*    main{ 
-       padding:px;
-       
-       } */
+@media only screen and (max-width:419px) {}
 
-        #txt p{
-        text-align: center;
-    }
-    
-    #img img{
-        margin-left:-29px;
-    }
-}
 
-@media only screen and (max-width:321px){
-    main{
-        padding:5px;
-    }
-    
-    #txt{
-        margin-left:30px
-    }
-    
-    #txt p{
-        text-align: center;
-    }
-    
-    #img img{
-        width:340px;
-        height:170px;
-        margin-left:0.5px
+@media only screen and (max-width:417px) {}
+
+@media only screen and (max-width:391px) {}
+
+@media only screen and (max-width:376px) {}
+
+@media only screen and (max-width:364px) {}
+
+@media only screen and (max-width:321px) {
+
+    main {
+        padding: 5px;
     }
 
-    
+    #txt {
+        margin-left: 30px
+    }
+
+    #h1 {
+        margin-left: 20px;
+    }
+
+
+
 }
